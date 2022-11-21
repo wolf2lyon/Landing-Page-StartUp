@@ -126,9 +126,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 430px;
+    height: 600px;
     margin-right: 90px;
     padding: 70px;
+}
+.style-pago{
+    height: 100px !important;
+    width: 350px !important;
 }
 
 .contenedor-aside__button{
@@ -478,8 +482,16 @@ main{
         flex-direction: column;
         margin: 0 auto;
         margin-top: 40px;
+
     }
-    
+    .style-pago{
+        height: 100px !important;
+        width: 350px !important;
+    }
+    .contenedor-aside {
+        margin: 0;
+        height: 600px !important;
+    }
   }
 
 
@@ -487,6 +499,7 @@ main{
 @media (max-width: 1443px) {
     .contenedor-aside {
         margin: 0;
+        height: 600px !important;
     }
     .contenedor-image {
         margin-left: 0px;
@@ -655,6 +668,7 @@ main{
         width: 240px;
     }
     
+    
   }
   @media (max-width: 850px) {
     .section-HomeCare .block-style {
@@ -700,12 +714,14 @@ main{
             margin: 0 auto;
         }
         .contenedor-aside .scale {
-            font-size: 30px;
+            font-size: 25px;
         }
 
     .contenedor-aside {
+        display: flex;
+        align-items: center;
         padding: 0px;
-        width: 300px;
+        width: 320px !important;
 
     }
 
@@ -735,6 +751,11 @@ main{
     .benefits h3 {
         font-size: 30px;
     
+    }
+    .style-pago{
+        text-align: center;
+        height: 80px !important;
+        width: 200px !important;
     }
     
 }
@@ -775,7 +796,7 @@ main{
     .contenedor-aside__title {
         width: 320px;
         margin: 0 auto;
-        font-size: 30px;
+        font-size: 25px;
         line-height: 30px;
     }
    .contenedor-aside__button{
@@ -930,6 +951,12 @@ main{
     .input-style {
         width: 300px;
     }
+    .image-grid .image-3 img {
+        width: 250px;
+    }
+    .jobs p {
+        width: 300px;
+    }
     
 }
 
@@ -946,6 +973,10 @@ main{
     .section-HomeCare img {
         height: 450px;
         width: 300px;
+    }
+    .carousel-item img{
+        height: 400px !important;
+        width: 250px !important;
     }
 }
 
